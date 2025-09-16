@@ -1,0 +1,20 @@
+To create new screen:
+screen -S [screenname]
+
+To detach from screen:
+ctrl+a+d
+
+To check the list of screens:
+screen -ls
+
+To open an already created screen:
+screen -r [screenname]
+
+To delete an already created screen:
+screen -XS [screenname] quit
+
+To open an already opened screen:
+screen -rd [screenname]
+
+To delete created screen:
+Screen -X -S screen_id quit
